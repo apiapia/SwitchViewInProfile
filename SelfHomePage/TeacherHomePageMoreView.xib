@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TeacherHomePageMoreView" customModule="SelfHomePage" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OrganizerHeadImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="c6E-lm-ExD">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="布袋" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jc5-84-u50">
+                    <rect key="frame" x="144" y="113" width="32" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nEN-cg-3Bs">
+                    <rect key="frame" x="90" y="161" width="30" height="29"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="粉丝"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8lo-ec-fA2">
+                    <rect key="frame" x="145" y="161" width="30" height="29"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="关注"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5x-Z0-7zQ">
+                    <rect key="frame" x="200" y="161" width="30" height="29"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="魅力"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abZ-F7-H9B">
+                    <rect key="frame" x="138" y="60" width="45" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="45" id="CUE-wl-KwC"/>
+                        <constraint firstAttribute="height" constant="45" id="TjS-gb-II7"/>
+                    </constraints>
+                    <state key="normal" image="head_icon_112.png"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="c6E-lm-ExD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0ez-nV-Ovi"/>
+                <constraint firstItem="abZ-F7-H9B" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="60" id="44L-DL-2Q3"/>
+                <constraint firstItem="Jc5-84-u50" firstAttribute="centerX" secondItem="abZ-F7-H9B" secondAttribute="centerX" id="AtJ-zn-kua"/>
+                <constraint firstItem="M5x-Z0-7zQ" firstAttribute="centerY" secondItem="8lo-ec-fA2" secondAttribute="centerY" id="CQI-D0-OWt"/>
+                <constraint firstItem="8lo-ec-fA2" firstAttribute="centerX" secondItem="Jc5-84-u50" secondAttribute="centerX" id="E7b-L4-KRm"/>
+                <constraint firstItem="nEN-cg-3Bs" firstAttribute="centerY" secondItem="8lo-ec-fA2" secondAttribute="centerY" id="HBW-3Y-FDh"/>
+                <constraint firstAttribute="bottom" secondItem="8lo-ec-fA2" secondAttribute="bottom" constant="10" id="IVv-Ye-81i"/>
+                <constraint firstItem="abZ-F7-H9B" firstAttribute="centerX" secondItem="c6E-lm-ExD" secondAttribute="centerX" id="LgK-gq-26w"/>
+                <constraint firstItem="c6E-lm-ExD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="OGS-hH-iGB"/>
+                <constraint firstAttribute="bottom" secondItem="c6E-lm-ExD" secondAttribute="bottom" id="Qb3-jP-PQ7"/>
+                <constraint firstItem="8lo-ec-fA2" firstAttribute="leading" secondItem="nEN-cg-3Bs" secondAttribute="trailing" constant="25" id="Rh8-ks-hbV"/>
+                <constraint firstItem="M5x-Z0-7zQ" firstAttribute="leading" secondItem="8lo-ec-fA2" secondAttribute="trailing" constant="25" id="eTx-ve-XZg"/>
+                <constraint firstItem="Jc5-84-u50" firstAttribute="top" secondItem="abZ-F7-H9B" secondAttribute="bottom" constant="8" id="q9C-Mb-Lac"/>
+                <constraint firstAttribute="trailing" secondItem="c6E-lm-ExD" secondAttribute="trailing" id="yLi-6p-NOP"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="222" y="236"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="OrganizerHeadImage.png" width="360" height="192"/>
+        <image name="head_icon_112.png" width="56" height="56"/>
+    </resources>
+</document>
