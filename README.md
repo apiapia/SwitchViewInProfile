@@ -10,3 +10,5 @@ tableView向上滑动时，header随之向上滑动，且滑动到一定高度�
 tableView可左右滑动切换，所有的tableView共用同一个header
 
 <img src='http://upload-images.jianshu.io/upload_images/3896436-5a08dd33280a4162.png'>
+
+<img src='http://upload-images.jianshu.io/upload_images/3896436-37d010ec1c6f97b3.png'>
